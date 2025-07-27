@@ -1,4 +1,6 @@
-from typing import Dict, List, Any
+"""Tools for detecting semantic drift between historical and current glyph data."""
+
+from typing import Any, Dict, List
 
 
 def detect_semantic_drift(glyph_history: Dict[str, Dict[str, Any]], current_codex: Dict[str, Dict[str, Any]]) -> List[Dict[str, Any]]:

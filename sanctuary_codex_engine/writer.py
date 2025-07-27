@@ -1,4 +1,7 @@
 from typing import Dict, Any
+"""Functions for generating canonical codex entries from glyph usage data."""
+
+from typing import Any, Dict
 
 
 def generate_codex_entry(glyph: str, usage_data: Dict[str, Any]) -> str:

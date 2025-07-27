@@ -1,5 +1,7 @@
-from typing import Dict
+"""Validation helpers for Sanctuary ritual invocation logs."""
+
 import re
+from typing import Dict
 
 
 def validate_cast_spellform(log_line: str, glyph_reference: Dict[str, Dict]) -> bool:
